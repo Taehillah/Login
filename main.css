@@ -1,3 +1,5 @@
 body {
     background-image: url(/images/bk.jpg);
+    background-size: cover;
+
 }
