@@ -49,12 +49,34 @@ form input.inputs{
     width: 260px;
 }
 
-.switchs{
-    display: inline-block;
-}
-div{
+form div{
     margin-top: 5%;
     margin-left: 10%;
+}
+
+form div label.switchs{
+    background-color: rgba(200, 134, 156, 0.851) ;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+
+form div input#switches{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+form div span.slider{
+
+}
+
+
+
+#labelsSwitch{
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    font-size: smaller;
 }
 
 
