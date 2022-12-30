@@ -1,12 +1,12 @@
 body {
-    background-image: url(/images/bkBlurry.jpg);
+    background-image: url(images/bkBlurry.jpg);
     background-size: cover;
 }
 
 form{
     height: 400px;
     width: 330px;
-    background-color: rgba(100, 98, 98, 0.273);
+    background-color: rgba(58, 58, 58, 0.405);
     border-radius: 10px;
     border: 0;
     margin: 0 auto;
@@ -37,9 +37,6 @@ form p#signin :hover{
 
 form p#signup{
     padding: 5px;
-}
-#signup :hover{
-    color: green !important;
 }
 
 form p.labels{
