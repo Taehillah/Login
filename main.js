@@ -1,7 +1,7 @@
-var sign = document.getElementById('signup');
-var former = document.getElementById('forms');
+var signup = document.getElementById('signup');
+var signin= document.getElementById('signin');
 
-sign.addEventListener('click', function(){
-alert("Clicked  " + sign);
+signin.addEventListener('click', function(){
+signup.style.color ="grey";
 }, false
 );
