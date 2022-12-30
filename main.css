@@ -6,14 +6,30 @@ body {
 form{
     height: 500px;
     width: 400px;
-    background-color: rgba(128, 128, 128, 0.195);
+    background-color: rgba(100, 98, 98, 0.199);
     border-radius: 10px;
+    border: 0;
     margin: 0 auto;
     margin-top: 7%;
 }
 
 form p.legendary{
-    color: white;
+    color: rgb(202, 202, 202);
     font-weight: bolder;
     display: inline-block;
+    margin-top: 10%;
+    
+}
+
+form p#signin{
+margin-left: 10%;
+}
+
+form p#signin :active{
+    color: white;
+
+}
+
+form p#signup{
+    padding: 5px;
 }
