@@ -33,3 +33,9 @@ form p#signin :hover{
 form p#signup{
     padding: 5px;
 }
+
+form p.labels{
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+}
