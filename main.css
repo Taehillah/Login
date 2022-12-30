@@ -1,5 +1,12 @@
 body {
     background-image: url(/images/bk.jpg);
     background-size: cover;
-    min-height: auto;
+}
+
+form{
+    height: 500px;
+    width: 300px;
+    margin:auto;
+    background-color: gray;
+    
 }
