@@ -13,5 +13,7 @@ form{
 }
 
 form p.legendary{
-    color: green;
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
 }
