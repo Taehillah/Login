@@ -24,6 +24,11 @@ form p.legendary{
 
 form p#signin{
 margin-left: 10%;
+padding-bottom: 3px;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: rgba(200, 134, 156, 0.851);
+width: fit-content;
 }
 
 form p#signin :hover{
