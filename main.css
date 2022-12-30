@@ -57,6 +57,7 @@ form input.inputs{
     margin-left: 10%;
     width: 260px;
     height: 22px;
+   outline: none;
 }
 
 form div{
