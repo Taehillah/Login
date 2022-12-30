@@ -40,3 +40,18 @@ form p.labels{
     color: white;
     margin-left: 10%;
 }
+
+form input.inputs{
+    background-color: rgba(255, 255, 255, 0.519);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+form input#buttons{
+    background-color: rgba(200, 134, 156, 0.851);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5%;
+}
