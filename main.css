@@ -38,6 +38,9 @@ form p#signin :hover{
 form p#signup{
     padding: 5px;
 }
+#signup :hover{
+    color: green !important;
+}
 
 form p.labels{
     font-size: smaller;
