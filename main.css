@@ -6,7 +6,7 @@ body {
 form{
     height: 400px;
     width: 330px;
-    background-color: rgba(100, 98, 98, 0.099);
+    background-color: rgba(100, 98, 98, 0.273);
     border-radius: 10px;
     border: 0;
     margin: 0 auto;
@@ -42,11 +42,12 @@ form p.labels{
 }
 
 form input.inputs{
-    background-color: rgba(255, 255, 255, 0.519);
+    background-color: rgba(255, 255, 255, 0.253);
     border: none;
     border-radius: 5px;
     margin-left: 10%;
     width: 260px;
+    height: 20px;
 }
 
 form div{
@@ -54,23 +55,12 @@ form div{
     margin-left: 10%;
 }
 
-form div label.switchs{
-    background-color: rgba(200, 134, 156, 0.851) ;
-    display: inline-block;
-    width: 20px;
-    height: 15px;
-}
-
 form div input#switches{
-    opacity: 0;
-    width: 0;
-    height: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 15px;
+  border: none;
 }
-form div span.slider{
-
-}
-
-
 
 #labelsSwitch{
     font-weight: bold;
