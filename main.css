@@ -46,7 +46,17 @@ form input.inputs{
     border: none;
     border-radius: 5px;
     margin-left: 10%;
+    width: 260px;
 }
+
+.switchs{
+    display: inline-block;
+}
+div{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
 
 form input#buttons{
     background-color: rgba(200, 134, 156, 0.851);
@@ -54,4 +64,5 @@ form input#buttons{
     font-weight: bolder;
     text-align: center;
     margin-top: 5%;
+    
 }
