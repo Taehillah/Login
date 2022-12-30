@@ -4,17 +4,18 @@ body {
 }
 
 form{
-    height: 500px;
-    width: 400px;
-    background-color: rgba(100, 98, 98, 0.199);
+    height: 400px;
+    width: 330px;
+    background-color: rgba(100, 98, 98, 0.099);
     border-radius: 10px;
     border: 0;
     margin: 0 auto;
     margin-top: 7%;
+    
 }
 
 form p.legendary{
-    color: rgb(202, 202, 202);
+    color: white;
     font-weight: bolder;
     display: inline-block;
     margin-top: 10%;
@@ -25,9 +26,8 @@ form p#signin{
 margin-left: 10%;
 }
 
-form p#signin :active{
+form p#signin :hover{
     color: white;
-
 }
 
 form p#signup{
