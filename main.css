@@ -4,10 +4,11 @@ body {
 }
 
 form{
-    height: 500px;
+    height: 400px;
     width: 300px;
     margin:auto;
     background-color: rgba(128, 128, 128, 0.195);
     border-radius: 10px;
+    margin-top: 100px;
     
 }
