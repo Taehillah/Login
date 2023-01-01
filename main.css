@@ -105,6 +105,17 @@ form p#recoveries{
     font-weight: thin;
     text-align: center;
     padding-top: 2%;
+    animation: color-change 3s infinite;
 }
+
+@keyframes color-change{
+    0%{color:rgba(234, 234, 232, 0.634)}
+    50%{color: rgba(164, 165, 101, 0.497);}
+    100%{color: rgba(196, 196, 171, 0.347);}
+}
+
+
+    
+
 
 

@@ -47,3 +47,8 @@ function displayPassword(){
        passwordInput1.type="password";  
       }
 };
+
+recovery.addEventListener('mouse-over',function(){
+recovery.style.animation.color='hue';
+},false
+);
