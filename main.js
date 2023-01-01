@@ -5,15 +5,7 @@ var passwordInput1 = document.getElementById('passwordInputss')
 var submitButton= document.getElementById('buttons');
 var toggle= document.getElementById("switches");
 
-function displayPassword(){  
-    if (passwordInput.type==="password")
-      {
-       passwordInput.type="text";
-      }
-      else {
-       passwordInput.type="password"; 
-      }
-};
+
 
 signin.addEventListener('click', function(){
     signup.style.color ="grey";
@@ -41,3 +33,22 @@ signup.addEventListener('click', function(){
 },false
 );
 
+function displayPassword(){  
+    if (passwordInput.type==="password")
+      {
+       passwordInput.type="text";
+      }
+      else {
+       passwordInput.type="password"; 
+      }
+};
+
+function displayPassword(){  
+    if (passwordInput1.type==="password")
+      {
+       passwordInput1.type="text";
+      }
+      else {
+       passwordInput1.type="password"; 
+      }
+};
