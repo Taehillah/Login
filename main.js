@@ -31,12 +31,9 @@ signup.addEventListener('click', function(){
 },false
 );
 
-function displayPassword(){
-    if(toggle.checked==true){
-       
-       if (passwordInput.type==="password")
+function displayPassword(){  
+     if (passwordInput.type==="password")
        {
         passwordInput.type="text";
        }; 
-    }
 };
