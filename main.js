@@ -31,7 +31,7 @@ signup.addEventListener('click', function(){
     submitButton.value="SIGN UP";
     document.getElementById('passwordInputss').style.display="block";
     document.getElementById('passwordLabel').style.display="block";
-    recovery.style.paddingTop="2px"
+    recovery.style.paddingTop="2px";
 
 },false
 );
