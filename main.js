@@ -9,6 +9,7 @@ signin.addEventListener('click', function(){
     signin.style.borderBottomStyle="solid";
     signin.style.borderBottomWidth="1px";
     signin.style.borderBottomColor="rgba(200, 134, 156, 0.851)"
+    submitButton.value="SIGN IN";
 }, false
 );
 
