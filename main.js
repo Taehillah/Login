@@ -5,7 +5,7 @@ const passwordInput1 = document.getElementById('passwordInputss')
 const submitButton= document.getElementById('buttons');
 const toggle= document.getElementById('switches');
 const recovery= document.getElementById('recoveries');
-const form=document.getElementsByTagName('form');
+const former=document.getElementsByTagName('form');
 
 
 
@@ -29,12 +29,10 @@ signup.addEventListener('click', function(){
     signup.style.borderBottomStyle="solid";
     signup.style.borderBottomWidth="1px";
     signup.style.borderBottomColor="rgba(200, 134, 156, 0.851)";
-
     submitButton.value="SIGN UP";
     document.getElementById('passwordInputss').style.display="block";
     document.getElementById('passwordLabel').style.display="block";
     recovery.style.paddingTop="2px";
-
 },false
 );
 
