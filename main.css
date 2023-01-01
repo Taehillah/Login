@@ -48,6 +48,13 @@ form p.labels{
     margin-left: 10%;
 }
 
+form p#passwordLabel{
+display: none;
+}
+form input#passwordInput{
+    display: none;
+    }
+
 form input.inputs{
     background-color: rgba(255, 255, 255, 0.253);
     color: white;
@@ -99,3 +106,5 @@ form p#recoveries{
     text-align: center;
     padding-top: 15%;
 }
+
+
