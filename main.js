@@ -1,6 +1,7 @@
 var signup = document.getElementById('signup');
 var signin= document.getElementById('signin');
 var submitButton= document.getElementById('buttons');
+var toggle= document.getElementById("switches");
 
 
 signin.addEventListener('click', function(){
@@ -11,6 +12,8 @@ signin.addEventListener('click', function(){
     signin.style.borderBottomWidth="1px";
     signin.style.borderBottomColor="rgba(200, 134, 156, 0.851)"
     submitButton.value="SIGN IN";
+    document.getElementById('passwordInput').style.display="none";
+    document.getElementById('passwordLabel').style.display="none";
 }, false
 );
 
@@ -22,5 +25,8 @@ signup.addEventListener('click', function(){
     signup.style.borderBottomWidth="1px";
     signup.style.borderBottomColor="rgba(200, 134, 156, 0.851)";
     submitButton.value="SIGN UP";
+    document.getElementById('passwordInput').style.display="block";
+    document.getElementById('passwordLabel').style.display="block";
 },false
 );
+
