@@ -10,8 +10,7 @@ form{
     border-radius: 10px;
     border: 0;
     margin: 0 auto;
-    margin-top: 7%;
-    
+    margin-top: 12%;
 }
 
 form p.legendary{
@@ -25,10 +24,11 @@ form p.legendary{
 form p#signin{
 margin-left: 10%;
 padding-bottom: 3px;
+width: fit-content;
+color :white;
 border-bottom-style: solid;
 border-bottom-width: 1px;
-border-bottom-color: rgba(200, 134, 156, 0.851);
-width: fit-content;
+border-bottom-color: rgba(200, 134, 156, 0.851)
 }
 
 form p#signin :hover{
@@ -37,6 +37,8 @@ form p#signin :hover{
 
 form p#signup{
     padding: 5px;
+    padding-bottom: 3px;
+    color: grey;
 }
 
 form p.labels{
