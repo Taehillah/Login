@@ -92,5 +92,9 @@ form input#buttons{
 }
 
 form p#recoveries{
-    color:white;
+    color:rgba(255, 255, 255, 0.375);
+    font-size: 10px;
+    font-weight: thin;
+    text-align: center;
+    padding-top: 15%;
 }
