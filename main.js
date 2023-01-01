@@ -1,9 +1,10 @@
-var signup = document.getElementById('signup');
-var signin= document.getElementById('signin');
-var passwordInput = document.getElementById('passwords');
-var passwordInput1 = document.getElementById('passwordInputss')
-var submitButton= document.getElementById('buttons');
-var toggle= document.getElementById("switches");
+const signup = document.getElementById('signup');
+const signin= document.getElementById('signin');
+const passwordInput = document.getElementById('passwords');
+const passwordInput1 = document.getElementById('passwordInputss')
+const submitButton= document.getElementById('buttons');
+const toggle= document.getElementById("switches");
+const recovery= document.getElementById('recoveries');
 
 
 
@@ -30,25 +31,19 @@ signup.addEventListener('click', function(){
     submitButton.value="SIGN UP";
     document.getElementById('passwordInputss').style.display="block";
     document.getElementById('passwordLabel').style.display="block";
+    recovery.style.paddingTop="2px"
+
 },false
 );
 
 function displayPassword(){  
-    if (passwordInput.type==="password")
+    if (passwordInput.type==="password"&&passwordInput1.type==="password")
       {
        passwordInput.type="text";
+       passwordInput1.type="text"; 
       }
       else {
        passwordInput.type="password"; 
-      }
-};
-
-function displayPassword(){  
-    if (passwordInput1.type==="password")
-      {
-       passwordInput1.type="text";
-      }
-      else {
-       passwordInput1.type="password"; 
+       passwordInput1.type="password";  
       }
 };
