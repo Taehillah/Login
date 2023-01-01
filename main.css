@@ -109,9 +109,9 @@ form p#recoveries{
 }
 
 @keyframes color-change{
-    0%{color:rgba(234, 234, 232, 0.634)}
-    50%{color: rgba(164, 165, 101, 0.497);}
-    100%{color: rgba(196, 196, 171, 0.347);}
+    0%{color:rgba(173, 173, 154, 0.634)}
+    50%{color: rgba(181, 182, 166, 0.497);}
+    100%{color: rgba(181, 181, 168, 0.347);}
 }
 
 
