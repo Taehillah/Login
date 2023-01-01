@@ -33,6 +33,10 @@ signup.addEventListener('click', function(){
 
 function displayPassword(){
     if(toggle.checked==true){
-        passwordInput.type==="text"; 
+       
+       if (passwordInput.type==="password")
+       {
+        passwordInput.type="text";
+       }; 
     }
 };
