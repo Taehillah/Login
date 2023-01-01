@@ -1,5 +1,6 @@
 var signup = document.getElementById('signup');
 var signin= document.getElementById('signin');
+var passwordInput = document.getElementById('passwordInput');
 var submitButton= document.getElementById('buttons');
 var toggle= document.getElementById("switches");
 
@@ -30,3 +31,8 @@ signup.addEventListener('click', function(){
 },false
 );
 
+function displayPassword(){
+    if(toggle.checked==true){
+        passwordInput.type==="text"; 
+    }
+};
