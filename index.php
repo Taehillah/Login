@@ -14,7 +14,10 @@
 <p class="legendary" id="signup">SIGN UP</p>
 
 <p class="labels">USERNAME</p>
-<input class="inputs" type="text">
+
+<input class="inputs" type="text" <?php
+$input2 = $_GET
+?>>
 
 <p class="labels">PASSWORD</p>
 <input id="passwords" class="inputs" type="password">
