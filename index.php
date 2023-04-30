@@ -14,7 +14,7 @@
 <p class="legendary" id="signin">SIGN IN</p>
 <p class="legendary" id="signup">SIGN UP</p>
 
-<p class="labels">USERNAME:   </p>
+<p class="labels">USERNAME: <?php echo $usernameError ?> </p>
 <input class="inputs" type="text" name="fusername">
 
 <p class="labels">PASSWORD:   </p>
