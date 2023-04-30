@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="forms" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    //used to send sensitive information via http insted of url displays of the get method
+    <?php //used to send sensitive information via http insted of url displays of the get method?>
 
 <p class="legendary" id="signin">SIGN IN</p>
 <p class="legendary" id="signup">SIGN UP</p>
