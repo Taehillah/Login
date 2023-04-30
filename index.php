@@ -45,9 +45,9 @@
 $usernameInput = $_POST["fusername"];
 $passwordInput = $_POST["fpassword"];
 $password2Input = $_POST["frepeat_password"];
-$usernameError;
-$passwordError;
-$password2Error;
+global $usernameError;
+global $passwordError;
+global $password2Error;
 
 if($passwordError != $password2Error){
 $passwordError = "passwords are not the same";
@@ -55,7 +55,6 @@ $passwordError = "passwords are not the same";
 if ($passwordError || $password2Error = ""){
     $password2Error = "fill this field" && $passwordError = "fill this field";
 };
-
 
 if ($usernameInput =""){
 $usernameError = "fill this field";
