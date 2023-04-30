@@ -31,7 +31,7 @@
 </div>
 
 
-<input class="inputs" id="buttons" value="SIGN IN">
+<input class="inputs" type="submit" id="buttons" value="SIGN IN">
 
 <p id="recoveries">RECOVER PASSWORD</p>
 
