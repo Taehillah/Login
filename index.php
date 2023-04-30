@@ -50,9 +50,16 @@ $passwordError;
 $password2Error;
 
 if($passwordError != $password2Error){
-$usernameError = "fill in this field";
-
+$passwordError = "passwords are not the same";
+} else {
+    if ($passwordError || $password2Error = ""){
+        $password2Error = "fill this field" && $passwordError = "fill this field";
+    }
 }
+
+if ($usernameInput =""){
+$usernameError = "fill this field";
+};
 ?>
 
 </body>
