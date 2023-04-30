@@ -42,11 +42,17 @@
     
     <?php
 
-$usernameError = $_POST["fusername"];
-$passwordError = $_POST["fpassword"];
-$password2Error = $_POST["frepeat_password"]
+$usernameInput = $_POST["fusername"];
+$passwordInput = $_POST["fpassword"];
+$password2Input = $_POST["frepeat_password"];
+$usernameError;
+$passwordError;
+$password2Error;
 
+if($passwordError != $password2Error){
+$usernameError = "fill in this field";
 
+}
 ?>
 
 </body>
