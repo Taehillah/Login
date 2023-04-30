@@ -42,9 +42,9 @@
     
     <?php
 
-$usernameError = "";
-$passwordError = "";
-$password2Error = "";
+$usernameError = $_POST["fusername"];
+$passwordError = $_POST["fpassword"];
+$password2Error = $_POST["frepeat_password"]
 
 
 ?>
