@@ -10,7 +10,27 @@
 <body>
     <form id="forms" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <?php //used to send sensitive information via http insted of url displays of the get method?>
+    <?php
 
+$usernameInput = $_POST["fusername"];
+$passwordInput = $_POST["fpassword"];
+$password2Input = $_POST["frepeat_password"];
+$usernameError;
+$passwordError;
+$password2Error;
+
+if($passwordError != $password2Error){
+$passwordError = "passwords are not the same";
+} 
+if ($passwordError || $password2Error = ""){
+    $password2Error = "fill this field" && $passwordError = "fill this field";
+};
+
+
+if ($usernameInput =""){
+$usernameError = "fill this field";
+};
+?>
 
 
 <p class="legendary" id="signin">SIGN IN</p>
@@ -40,27 +60,7 @@
     </form>
     <script type="text/javascript" src="main.js"></script>
     
-    <?php
 
-$usernameInput = $_POST["fusername"];
-$passwordInput = $_POST["fpassword"];
-$password2Input = $_POST["frepeat_password"];
-$usernameError;
-$passwordError;
-$password2Error;
-
-if($passwordError != $password2Error){
-$passwordError = "passwords are not the same";
-} 
-if ($passwordError || $password2Error = ""){
-    $password2Error = "fill this field" && $passwordError = "fill this field";
-};
-
-
-if ($usernameInput =""){
-$usernameError = "fill this field";
-};
-?>
 
 </body>
 </html>
