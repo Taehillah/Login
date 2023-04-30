@@ -14,13 +14,13 @@
 <p class="legendary" id="signin">SIGN IN</p>
 <p class="legendary" id="signup">SIGN UP</p>
 
-<p class="labels">USERNAME</p>
+<p class="labels">USERNAME:   </p>
 <input class="inputs" type="text" name="fusername">
 
-<p class="labels">PASSWORD</p>
+<p class="labels">PASSWORD:   </p>
 <input id="passwords" class="inputs" type="password" name="fpassword">
 
-<p id="passwordLabel"class="labels">RE-TYPE PASSWORD</p>
+<p id="passwordLabel"class="labels">RE-TYPE PASSWORD:</p>
 <input id="passwordInputss" class="inputs" type="password" name="frepeat_password">
 
 <div>
