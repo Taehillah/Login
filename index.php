@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Sign_Up | Login</title>
+=======
+    <title>Sign Up | Login</title>
+>>>>>>> 9241d217f0a60190a7daf97da8cf62bf592ccd78
     <link rel="stylesheet" href="main.css">    
 </head>
 <body>
