@@ -11,10 +11,12 @@
     <form id="forms" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <?php //used to send sensitive information via http insted of url displays of the get method?>
 
+
+
 <p class="legendary" id="signin">SIGN IN</p>
 <p class="legendary" id="signup">SIGN UP</p>
 
-<p class="labels">USERNAME: <?php echo $usernameError ?> </p>
+<p class="labels">USERNAME: <?php echo "$usernameError" ?> </p>
 <input class="inputs" type="text" name="fusername">
 
 <p class="labels">PASSWORD:  <?php echo $passwordError ?> </p>
@@ -38,5 +40,14 @@
     </form>
     <script type="text/javascript" src="main.js"></script>
     
+    <?php
+
+$usernameError = "";
+$passwordError = "";
+$password2Error = "";
+
+
+?>
+
 </body>
 </html>
