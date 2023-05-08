@@ -9,11 +9,11 @@
 </head>
 <body>
     <form id="forms" method="post" >
-    <?php //used to send sensitive information via http insted of url displays of the get method?>
+    //used to send sensitive information via http insted of url displays of the get method
 
 
 
-<p class="legendary" id="signin">SIGN IN</p>
+<p class="legendary" id="signin" >SIGN IN</p>
 <p class="legendary" id="signup">SIGN UP</p>
 
 <p class="labels">USERNAME: </p>
@@ -36,30 +36,22 @@
 <input class="inputs" action="receive.php" type="submit" id="buttons" value="SIGN IN">
 
 <p id="recoveries">RECOVER PASSWORD</p>
+<p name="fill">
 
+</p>
     </form>
     <script type="text/javascript" src="main.js"></script>
     
-    <?php
-
+    <?
 $usernameInput = $_POST["fusername"];
-$passwordInput = $_POST["fpassword"];
-$password2Input = $_POST["frepeat_password"];
-global $usernameError;
-global $passwordError;
-global $password2Error;
 
-if($passwordError != $password2Error){
-$passwordError = "passwords are not the same";
-} 
-if ($passwordError || $password2Error = ""){
-    $password2Error = "fill this field" && $passwordError = "fill this field";
-};
+if ($usernameInput!=1){
+    header("Location:receive.php");
+}
 
-if ($usernameInput =""){
-$usernameError = "fill this field";
-};
-?>
+
+    ?>
+
 
 </body>
 </html>
