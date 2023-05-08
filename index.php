@@ -33,7 +33,7 @@
 </div>
 
 
-<input class="inputs" type="submit" id="buttons" value="SignIn">
+<input type="submit" value="SignIn" class="inputs" id="buttons" >
 
 <p id="recoveries">RECOVER PASSWORD</p>
 <p name="fill">
