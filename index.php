@@ -33,7 +33,7 @@
 </div>
 
 
-<input class="inputs" action="receive.php" type="submit" id="buttons" value="SIGN IN">
+<input class="inputs" type="submit" id="buttons" value="SignIn">
 
 <p id="recoveries">RECOVER PASSWORD</p>
 <p name="fill">
@@ -42,8 +42,5 @@
     </form>
     <script type="text/javascript" src="main.js"></script>
     
- 
-
-
 </body>
 </html>
