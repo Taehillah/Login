@@ -42,16 +42,7 @@
     </form>
     <script type="text/javascript" src="main.js"></script>
     
-    <?
-$usernameInput = $_POST["fusername"];
-
-if ($usernameInput!=1){
-    header("Location:receive.php");
-    exit();
-}
-
-
-    ?>
+ 
 
 
 </body>
