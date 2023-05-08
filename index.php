@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css">    
 </head>
 <body>
-    <form id="forms" method="post" >
+    <form id="forms" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
 
 
 
