@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="forms" method="post" >
-    //used to send sensitive information via http insted of url displays of the get method
+
 
 
 
