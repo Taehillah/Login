@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css">    
 </head>
 <body>
-    <form id="forms" method="post" action="">
+    <form id="forms" method="post" >
     <?php //used to send sensitive information via http insted of url displays of the get method?>
 
 
@@ -33,7 +33,7 @@
 </div>
 
 
-<input class="inputs" type="submit" id="buttons" value="SIGN IN">
+<input class="inputs" action="receive.php" type="submit" id="buttons" value="SIGN IN">
 
 <p id="recoveries">RECOVER PASSWORD</p>
 
