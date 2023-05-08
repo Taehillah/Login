@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="main.css">    
 </head>
 <body>
+
+<h1>Hey Guys I made it, the code works</h1>
+
+
 <?php
 $usernameInput = $_POST["fusername"];
 $passwordInput1 = $_POST["fpassword"];
