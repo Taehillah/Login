@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css">    
 </head>
 <body>
-    <form id="forms" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <form id="forms" method="post" action="">
     <?php //used to send sensitive information via http insted of url displays of the get method?>
 
 
@@ -16,13 +16,13 @@
 <p class="legendary" id="signin">SIGN IN</p>
 <p class="legendary" id="signup">SIGN UP</p>
 
-<p class="labels">USERNAME: <?php echo $usernameError ?> </p>
+<p class="labels">USERNAME: </p>
 <input class="inputs" type="text" name="fusername">
 
-<p class="labels">PASSWORD:  <?php echo $passwordError ?> </p>
+<p class="labels">PASSWORD:   </p>
 <input id="passwords" class="inputs" type="password" name="fpassword">
 
-<p id="passwordLabel"class="labels">RE-TYPE PASSWORD: <?php echo $passwordError ?></p>
+<p id="passwordLabel"class="labels">RE-TYPE PASSWORD: </p>
 <input id="passwordInputss" class="inputs" type="password" name="frepeat_password">
 
 <div>
