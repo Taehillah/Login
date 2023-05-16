@@ -52,3 +52,4 @@ recovery.addEventListener('mouse-over',function(){
 recovery.style.animation.color='hue';
 },false
 );
+$(document.p)
