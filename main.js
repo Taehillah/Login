@@ -43,8 +43,8 @@ function displayPassword(){
        passwordInput1.type="text"; 
       }
       else {
-       passwordInput.type="password"; 
-       passwordInput1.type="password";  
+       passwordInput.type="password1"; 
+       passwordInput1.type="password1";  
       }
 };
 
@@ -52,4 +52,6 @@ recovery.addEventListener('mouse-over',function(){
 recovery.style.animation.color='hue';
 },false
 );
-$(document.p)
+$(document.getElementById(discoveries)).on("click"){
+    alert("hi");
+}
