@@ -43,8 +43,8 @@ function displayPassword(){
        passwordInput1.type="text"; 
       }
       else {
-       passwordInput.type="password1"; 
-       passwordInput1.type="password1";  
+       passwordInput.type="password"; 
+       passwordInput1.type="password";  
       }
 };
 
