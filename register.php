@@ -4,7 +4,8 @@ if (isset($_SESSION['uid'])!=""){
     header("Location:dashboard.php");
 }
 if  (!isset($_POST['signup'])){
-    $name = mysqli_real_escape_string($conn, $_POST[$user_name]);
+    $user_name = mysqli_real_escape_string($conn, $_POST[$user_name]);
+    $
 }
 
  ?>

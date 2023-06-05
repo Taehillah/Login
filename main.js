@@ -54,4 +54,4 @@ recovery.style.animation.color='hue';
 );
 $(document.getElementById(discoveries)).on("click"){
     alert("hi");
-}
+} 
