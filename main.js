@@ -10,7 +10,7 @@ const former=document.getElementsByTagName('form');
 
 
 signin.addEventListener('click', function(){
-    signup.style.color ="grey";
+    signup.style.color ="gray";
     signin.style.color ="white";
     signup.style.borderBottomStyle="none";
     signin.style.borderBottomStyle="solid";
