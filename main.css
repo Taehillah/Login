@@ -14,7 +14,7 @@ form{
 }
 
 form p.legendary{
-    color: white;
+    color: gray;
     font-weight: bolder;
     display: inline-block;
     margin-top: 10%;
