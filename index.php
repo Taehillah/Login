@@ -29,7 +29,7 @@
 <label class="switchs"> 
 <input type="checkbox" value="hshdyd77" id="switches" onclick="displayPassword()"/>
 </label>
-<p id="labelsSwitch">SHOW PASSWORD</p>
+<p id="labelsSwitch">DISPLAY PASSWORD</p>
 </div>
 
 
