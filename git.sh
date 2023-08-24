@@ -1,5 +1,5 @@
 #!/bin/bash
 
 git add .
-git commit -m "Updates mades"
+git commit -m "Updated Code"
 git push
